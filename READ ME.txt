@@ -1,0 +1,71 @@
+********************* READ ME ***************************
+Student Name: Akshay Chandrachood
+
+Net id: ******
+Student id: *******
+*********************************************************
+
+Commands to Compile and Run .Java files
+
+javac BellmanFord.java
+
+java BellmanFord
+
+________________________________________________________________________
+
+About Project:
+=============
+
+Implementation of Ford's distributed algorithm
+
+Write a program using C++ or Java to implement Ford's distributed algroithm. 
+You randomly generate a graph and the weights on the edges, and randomly pick 
+a source and a destination, and then apply Ford's distributed algorithm to 
+find the shortest path from the source to the destination. Print out the graph 
+(the vertices, edges and their weights), source, destination, and the shortest 
+path from the source to the destination.
+
+_____________________________________________________________________________
+
+Sample Output:
+=============
+Enter the number of Nodes: 5
+Printing The Adjacency Matrix: 
+	0	8	4	9	4
+
+	8	0	3	5	9
+
+	4	3	0	3	9
+
+	9	5	3	0	5
+
+	4	9	9	5	0
+
+
+Printing Graph:
+
+(1->1) : 0	(1->2) : 8	(1->3) : 4	(1->4) : 9	(1->5) : 4	
+
+(2->1) : 8	(2->2) : 0	(2->3) : 3	(2->4) : 5	(2->5) : 9	
+
+(3->1) : 4	(3->2) : 3	(3->3) : 0	(3->4) : 3	(3->5) : 9	
+
+(4->1) : 9	(4->2) : 5	(4->3) : 3	(4->4) : 0	(4->5) : 5	
+
+(5->1) : 4	(5->2) : 9	(5->3) : 9	(5->4) : 5	(5->5) : 0	
+
+Generating source randomly: 
+Source: 2
+Generating destination randomly: 
+Destination: 5
+
+Shortest Distances From Source To All Nodes Are:
+
+distance of source  2 to 1 is 7
+distance of source  2 to 2 is 0
+distance of source  2 to 3 is 3
+distance of source  2 to 4 is 5
+distance of source  2 to 5 is 9
+
+Shortest Dist from 2 to Dest 5 : 9
+
